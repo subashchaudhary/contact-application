@@ -1,1 +1,164 @@
+*{
+	margin: 0;
+}
+header{
+	background: #3d3d52;
+	color: 	#fff;
+	height: 60px;
+}
+header h1{
+	float: 	left;
+	padding: 10px;
+}
+.search{
+	float: right;	
+	font-size: 20px;
+}
+button {
+    float: left;
+    padding: 4px;
+    font-size: 17px;
+    font-family: arial;
+    /* font-weight: bold; */
+    color: #fff;
+    background-color: darkcyan;
+    border: 1px;
+    /* border-radius: 4px; */
+    margin: 15px;
+    width: 70px;
+}
+ input[type="text"] {
+    height: 25px;
+    border: 1px solid silver;
+}
+#submit,#reset {
+    height: 28px;
+    width: 100px;
+    border: 1px;
+    background-color: cadetblue;
+    font-size: 18px;
+    color: #fff;
+}
+img {
+    height: 235px;
+    width: 250px;
+}
+img#banner-image {
+    height: 500px;
+    width: 100%;
+}
+.img {
+    height: 235px;
+    width: 250px;
+    margin: 24px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    border: 1px solid gainsboro;
+    background-image: url("../images/image_placeholder.png");
+    background-repeat: no-repeat;
+}
+.contacts{
+/*	border: 1px solid silver;*/
+	width: 340px;
+	margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+	/*box-shadow: -1px 2px 12px 2px silver;*/
+}
 
+.contacts p {
+    color: sienna;
+    padding-left: 30px;
+}
+.newcontact{
+    border: 1px solid #3d3d52;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: -1px 2px 12px 2px #3d3d52;
+    padding: 10px;
+}
+#search{
+    padding: 14px;
+    float: left;
+}
+.user {
+    float: right;
+    color: #fff;
+    padding-top: 20px;
+     
+}
+.user a {
+    font-family: arial;
+    font-size: 16px;
+}
+button a,a{
+    text-decoration: none;
+    color: #fff;
+}
+#addform input[type="text"]{
+    height: 25px;
+    width: 100%; 
+    border: 1px solid silver;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#addform{
+    padding: 10px;
+    font-size: 18px;
+    font-family: arial sans-serif serif;
+    color: #000;
+}
+ #password{
+    width: 100%;
+    height: 25px;
+ }
+ a#change {
+    color: purple;
+    text-decoration: underline;
+    text-align: right;
+    padding-left: 30px;
+}
+.cpanel{
+    text-align: center;
+    padding-top: 44px;
+    font-size: 50px;
+}
+.img-btns {
+    margin-left: 50px;
+}
+.container{
+    width:900px;
+    margin:0 auto;
+}
+ 
+h2#banner-title {
+    font-family: cursive;
+    font-size: 35px;
+}
+.copyright {
+    height: 30px;
+    background: #000;
+    padding-top:10px;
+}
+p#banner-text {
+    font-size: 20px;
+    font-family: cursive;
+    color: blanchedalmond;
+}
+div#banner-wrapper {
+    background: gray;
+    color: #fff;
+    padding: 15px;
+}
+p#upload-txt {
+    float: left;
+    padding-top: 12px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.section-top {
+    width: 100%;
+    height: 80px;
+}
